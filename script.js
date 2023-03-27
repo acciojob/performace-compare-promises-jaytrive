@@ -15,6 +15,3 @@ const apiUrls = [
 
 let all=document.getElementById('output-all');
 let any=document.getElementById('output-any');
-
-Promise.all(apiUrls).then((res) => all.innerText=new Date())
-Promise.any(apiUrls).then((res) => any.innerText=new Date())
